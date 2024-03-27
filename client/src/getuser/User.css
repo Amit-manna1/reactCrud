@@ -1,0 +1,55 @@
+
+.userTable{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width :60%;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    margin:50px auto;
+    padding:50px;
+}
+.addButton{
+    text-decoration: none;
+    background-color:var(--primary-blue);
+    color: aliceblue;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    padding: 10px;
+}
+.userTable table{
+    
+    width:100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: 5px solid white;
+
+}
+.userTable table thead th {
+    background-color:var(--primary-blue);
+}
+td , th{
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+}
+ 
+.actionButton .delete{
+    color: aliceblue;
+    border: 0;
+    outline: 0px;
+    background-color: red;
+    border-radius: 2px;
+    padding: 3px;
+}
+.actionButton .edit{
+    color: aliceblue;
+    margin-left: 4px;
+    border: 0;
+    outline: 0px;
+    background-color: green;
+    border-radius: 2px;
+    padding: 3px;
+}

@@ -1,14 +1,75 @@
+/* Updated CSS */
 
-.userTable{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    width :60%;
-    background-color: aliceblue;
-    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+/* Styles for the user table container */
+.userTable {
+    width: 80%;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+/* Styles for the user table */
+.userTable table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+    background-color: #fff;
     border-radius: 5px;
-    margin:50px auto;
-    padding:50px;
+}
+
+/* Styles for table headers */
+.userTable table thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for table cells */
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for action buttons */
+.actionButton button {
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actionButton .delete {
+    background-color: #dc3545;
+}
+
+.actionButton .edit {
+    background-color: #28a745;
+    margin-left: 5px;
+}
+
+.actionButton button:hover {
+    opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .userTable {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+    .actionButton .edit {
+        
+        margin-left: 0px;
+    }
 }
 .addButton{
     text-decoration: none;
@@ -18,38 +79,4 @@
     box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
     border-radius: 5px;
     padding: 10px;
-}
-.userTable table{
-    
-    width:100%;
-    margin-top: 30px;
-    border-collapse: collapse;
-    border: 5px solid white;
-
-}
-.userTable table thead th {
-    background-color:var(--primary-blue);
-}
-td , th{
-    padding: 6px;
-    border-radius: 5px;
-    text-align: center;
-}
- 
-.actionButton .delete{
-    color: aliceblue;
-    border: 0;
-    outline: 0px;
-    background-color: red;
-    border-radius: 2px;
-    padding: 3px;
-}
-.actionButton .edit{
-    color: aliceblue;
-    margin-left: 4px;
-    border: 0;
-    outline: 0px;
-    background-color: green;
-    border-radius: 2px;
-    padding: 3px;
 }

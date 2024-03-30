@@ -1,3 +1,10 @@
 :root{
---primary-blue:rgb(44, 44, 244);
+--primary-blue:rgb(20, 204, 228);
+
+--primary-black-100:#343131;
+--primary-black-200:#232222;
+
+}
+body{
+background: var(--primary-black-200);
 }

@@ -21,8 +21,8 @@ const User = () => {
               <td>amit@</td>
               <td>
                 <div className="actionButton">
-              <Link to={'/edit'} ><button className='delete'>Delete</button></Link>
-              <Link to={'/edit'}><button className='edit'>Edit</button></Link>
+              <Link to={'/edit'} ><button className='delete'><i className="fa-solid fa-trash"></i></button></Link>
+              <Link to={'/edit'}><button className='edit'><i className="fa-solid fa-edit"></i></button></Link>
               </div>
               </td>
             </tr>

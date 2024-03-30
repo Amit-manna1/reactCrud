@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import User from './getuser/User'
+import Add from './adduser/Add';
 
 const route =createBrowserRouter([
   {
@@ -9,7 +10,7 @@ const route =createBrowserRouter([
   },
   {
     path:'/add',
-    element:<User/>
+    element:<Add/>
   },
   {
     path:'/edit',
